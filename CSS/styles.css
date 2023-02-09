@@ -37,7 +37,10 @@ address{
     font-style: normal ;
 }
 .envelope-icon{
+    
+    align-items: center;
     margin-right: 10px;
+    fill: var(--secondary-text-color-studio);
 }
 .contact-header:hover .envelope-icon, 
 .contact-header:focus .envelope-icon
@@ -123,8 +126,9 @@ margin-right: 50px;
 {
     color: var(--hover_focus-color);
 }
- 
+
 .contact-header{
+    display: flex;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -134,7 +138,6 @@ margin-right: 50px;
     color: var(--secondary-text-color-studio);
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
 .contact-header:hover,
 .contact-header:focus  {
@@ -143,6 +146,7 @@ color: #2196F3;
 .contact-number{
     margin-left: 50px;
 }
+
 .modal-btn{
         font-style: normal;
         font-weight: 700;
