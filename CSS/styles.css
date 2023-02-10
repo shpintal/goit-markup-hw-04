@@ -55,11 +55,11 @@ address{
     padding-bottom: 94px;
 }
 .list{
-    list-style: none;
+     list-style: none;
 }
 .link{
     text-decoration: none;
-    outline:transparent;
+    outline:none;
 }
 
 .container{
@@ -534,7 +534,7 @@ border: var(--hover_focus-color) solid 1px;
         letter-spacing: 0.03em;
         cursor: pointer;
         background-color: var(--section-secondary-color);
-        border: transparent;
+        border: none;
 
 }
 .list-buttom-item:not(:last-child){
